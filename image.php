@@ -3,7 +3,7 @@
 $im = imagecreatetruecolor(200, 200);
 $white = imagecolorallocate($im, 255, 255, 255);
 
-echo "<b>Some test string</b>";
+echo "<b>Some test string ... test</b>";
 
 $deployment = getenv("COLOR");
 
